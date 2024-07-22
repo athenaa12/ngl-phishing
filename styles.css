@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #d81b60; /* Pink color for the header */
+}
+
+p {
+    margin: 10px 0;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #d81b60; /* Pink color for labels */
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d81b60; /* Pink border */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #d81b60; /* Pink background for button */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+}
+
